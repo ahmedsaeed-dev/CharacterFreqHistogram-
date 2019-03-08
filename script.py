@@ -2,7 +2,7 @@
 # Course:       CIS 298 - Intro to Python
 # Instructor:   Robert Mann
 # Program:      Project 04 - Files
-# Due Date:     03/21/2019
+# Due Date:     04/18/2019
 
 import matplotlib.pyplot as plt
 

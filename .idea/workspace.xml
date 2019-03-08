@@ -12,7 +12,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/workspace$script.coverage" NAME="script Coverage Results" MODIFIED="1552024438572" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/workspace$script.coverage" NAME="script Coverage Results" MODIFIED="1552025064645" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
@@ -20,8 +20,8 @@
         <entry file="file://$PROJECT_DIR$/script.py">
           <provider selected="true" editor-type-id="live-pycharm">
             <state>
-              <first_editor relative-caret-position="96">
-                <caret line="6" column="44" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
+              <first_editor relative-caret-position="64">
+                <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
               </first_editor>
               <second_editor />
             </state>
@@ -133,12 +133,27 @@
       <updated>1552020538913</updated>
       <workItem from="1552020542337" duration="654000" />
       <workItem from="1552021339355" duration="1978000" />
-      <workItem from="1552023551360" duration="926000" />
+      <workItem from="1552023551360" duration="1729000" />
     </task>
+    <task id="LOCAL-00001" summary="added histogram, exported as bar.png">
+      <created>1552024532984</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1552024532985</updated>
+    </task>
+    <task id="LOCAL-00002" summary="completed, ready for submission">
+      <created>1552025129663</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1552025129663</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3558000" />
+    <option name="totallyTimeSpent" value="4361000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-840" y="23" width="840" height="1027" extended-state="0" />
@@ -163,12 +178,17 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info active="true" anchor="right" x="330" y="153" width="647" height="482" id="SciView" order="3" type="FLOATING" visible="true" weight="0.49497488" />
+      <window_info anchor="right" x="330" y="153" width="647" height="482" id="SciView" order="3" show_stripe_button="false" type="FLOATING" weight="0.49497488" />
       <window_info anchor="right" id="Database" order="4" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added histogram, exported as bar.png" />
+    <MESSAGE value="completed, ready for submission" />
+    <option name="LAST_COMMIT_MESSAGE" value="completed, ready for submission" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/../../Project02/workspace/fractions.py">
@@ -186,8 +206,8 @@
       </provider>
       <provider selected="true" editor-type-id="live-pycharm">
         <state>
-          <first_editor relative-caret-position="96">
-            <caret line="6" column="44" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
+          <first_editor relative-caret-position="64">
+            <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
           </first_editor>
           <second_editor />
         </state>
