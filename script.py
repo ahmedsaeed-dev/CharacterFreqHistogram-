@@ -4,12 +4,11 @@
 # Program:      Project 04 - Files
 # Due Date:     03/21/2019
 
-# TODO: SORT HISTOGRAM BY KEY VALUE, A, B, C
-
 import matplotlib.pyplot as plt
 
 
 def plotter(dct):
+
     chars = list(dct.keys())
     count = list(dct.values())
 
@@ -50,6 +49,7 @@ def main():
 
     # display_output(dct)
     plotter(dct)
+
 
 if __name__ == "__main__":
     main()
