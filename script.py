@@ -4,6 +4,23 @@
 # Program:      Project 04 - Files
 # Due Date:     03/21/2019
 
+# TODO: SORT HISTOGRAM BY KEY VALUE, A, B, C
+
+import matplotlib.pyplot as plt
+
+
+def plotter(dct):
+    chars = list(dct.keys())
+    count = list(dct.values())
+
+    plt.bar(range(len(dct)), count, tick_label=chars)
+    plt.title("Character Frequency - Project 04", weight='bold')
+    plt.xlabel('Characters', weight='bold')
+    plt.ylabel('Count', weight='bold')
+    plt.savefig('bar.png')
+    plt.show()
+
+
 def valid_char(i):
     if 'A' <= i <= 'Z':
         return True
@@ -12,6 +29,7 @@ def valid_char(i):
     else:
         return False
 
+
 def display_output(dct):
     for k, v in sorted(dct.items()):
         print("{}: {}".format(k, v))
@@ -19,19 +37,19 @@ def display_output(dct):
     # verify char req = 36
     # print(len(dct.keys()))
 
+
 def main():
     file = open("myfile.txt", "r+")
 
     dct = {}
 
-    for i in file.read():
-        i = i.upper()
-        if valid_char(i):
-            dct[i] = dct.get(i, 0) + 1
+    for char in file.read():
+        char = char.upper()
+        if valid_char(char):
+            dct[char] = dct.get(char, 0) + 1
 
-    display_output(dct)
-
-
+    # display_output(dct)
+    plotter(dct)
 
 if __name__ == "__main__":
     main()
